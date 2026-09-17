@@ -78,7 +78,7 @@ export default function SignInPage() {
     // 3. Inject script for the first time
     const script = document.createElement("script")
     script.id = "botbuster-script"
-    script.src = "https://cdn.jsdelivr.net/gh/tarunInomatrix/captcha-script@14fee0571f5b81b2f60dca79033a3ece1ee69022/quick-check-inject.js"
+    script.src = "https://cdn.jsdelivr.net/gh/tarunInomatrix/captcha-script@a87a058813a4ba241ad93222caae7105fba90e9b/quick-check-inject.js"
     script.async = true
     script.setAttribute("data-api-key", dataApiKey)
     script.setAttribute("data-email", userEmail)
@@ -156,8 +156,8 @@ export default function SignInPage() {
           </span>
           <span
             className={`w-3 h-3 rounded-full transition-all duration-200 cursor-pointer ${activeSection === "signin"
-                ? "bg-black scale-125 ring-4 ring-black/10"
-                : "bg-gray-300 hover:bg-gray-400"
+              ? "bg-black scale-125 ring-4 ring-black/10"
+              : "bg-gray-300 hover:bg-gray-400"
               }`}
           />
         </button>
@@ -172,8 +172,8 @@ export default function SignInPage() {
           </span>
           <span
             className={`w-3 h-3 rounded-full transition-all duration-200 cursor-pointer ${activeSection === "details"
-                ? "bg-black scale-125 ring-4 ring-black/10"
-                : "bg-gray-300 hover:bg-gray-400"
+              ? "bg-black scale-125 ring-4 ring-black/10"
+              : "bg-gray-300 hover:bg-gray-400"
               }`}
           />
         </button>
