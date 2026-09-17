@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sign in to your account",
+  title: "Sign in to Your Account",
   description: "Sign in to your account with email or social providers",
 };
 
