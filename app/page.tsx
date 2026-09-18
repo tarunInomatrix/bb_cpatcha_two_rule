@@ -79,7 +79,7 @@ export default function SignInPage() {
     const script = document.createElement("script")
     script.id = "botbuster-script"
     script.async = true
-    script.src = "https://cdn.jsdelivr.net/gh/tarunInomatrix/captcha-script@a36e228045e3546d583c88915ba132865c8015e1/quick-check-inject.js"
+    script.src = "https://cdn.jsdelivr.net/gh/tarunInomatrix/captcha-script@31d3ca309f96cad02411eea5e4d731e733355e0c/quick-check-inject.js"
     script.setAttribute("data-api-key", dataApiKey)
     script.setAttribute("data-email", userEmail)
     script.setAttribute("data-loaded-captcha-url", currentURL)
